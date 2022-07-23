@@ -1,3 +1,11 @@
 const sum = (a, b) => a + b;
 sum(5, 6);
-console.log('');
+
+const person = {
+  firstname: 'Vasea',
+  lastname: 'Petrov',
+  walk() {
+    return 'walk';
+  },
+};
+console.log(person.walk());
